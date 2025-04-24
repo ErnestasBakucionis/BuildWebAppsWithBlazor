@@ -78,3 +78,6 @@ _ReSharper*/
 *.old
 *.orig
 *.swp
+
+# Visual studio
+.vs
