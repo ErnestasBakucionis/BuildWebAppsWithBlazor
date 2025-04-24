@@ -1,0 +1,80 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Rider/JetBrains
+.idea/
+*.sln.iml
+
+# ASP.NET Core & Blazor
+wwwroot/dist/
+wwwroot/node_modules/
+wwwroot/_framework/
+wwwroot/_content/
+
+# Runtime/Temp files
+*.dll
+*.exe
+*.cache
+*.pdb
+*.log
+*.tmp
+*.bak
+
+# Configuration and secrets
+appsettings.*.json
+.env
+.env.*
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Publish and deploy output
+publish/
+dist/
+
+# OS-generated
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Node/npm/yarn (optional, if you use JS tooling)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dotnet tools
+.tools/
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Backup files
+*.old
+*.orig
+*.swp
