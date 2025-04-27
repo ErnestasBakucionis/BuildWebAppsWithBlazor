@@ -6,7 +6,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddHttpClient();
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
-builder.Services.AddSingleton<PizzaService>();
 builder.Services.AddScoped<OrderState>();
 builder.Services.AddSqlite<PizzaStoreContext>("Data Source=pizza.db");
 
