@@ -198,11 +198,11 @@ form {
         line-height: 2rem;
     }
 
-.price::before {
-    content: '£';
+.price::after {
+    content: '€';
     font-weight: 300;
     font-size: 1.2rem;
-    margin-right: 0.2rem;
+    margin-left: 0.2rem;
 }
 
 .sidebar {
@@ -248,10 +248,11 @@ form {
     .order-total .total-price {
         font-weight: 700;
         font-size: 1.5rem;
+        margin-left: 5px;
     }
 
-        .order-total .total-price::before {
-            content: '£';
+        .order-total .total-price::after {
+            content: '€';
             font-weight: 300;
             margin: 0 0.1rem 0 0.4rem;
         }
@@ -307,10 +308,10 @@ form {
     font-weight: 500;
 }
 
-    .item-price::before {
-        content: '£';
+    .item-price::after {
+        content: '€';
         font-weight: 100;
-        margin-right: 0.3rem;
+        margin-left: 0.3rem;
     }
 
 .delete-item {
@@ -454,8 +455,8 @@ form {
     font-size: 0.8rem;
 }
 
-.dialog .topping-price::before {
-    content: '£';
+.dialog .topping-price::after {
+    content: '€';
 }
 
 .delete-topping {
